@@ -16,6 +16,7 @@
     body{
         background-color: #191B1D;
         color: white;
+        font-family: poppins;
     }
     .left-aero img{
         border-radius: 11px;
@@ -43,17 +44,20 @@
         border-radius: 8px;
         height: 45px;
         color: white;
-        background-image: linear-gradient(to right, #181A1D, #3D4246FC);
+        background-image: linear-gradient(to right, #151616, #3D4246FC);
+        background-clip: unset;
         box-shadow: inset 2px 50px #191b1d47;
+    
         
     }
 
     .form-control:focus {
     color: white;
-    background-color: #fff;
+    
+    box-shadow: inset 2px 50px #191b1d47;
     border-color: none;
     outline: 0;
-    box-shadow: none;
+    /* box-shadow: none; */
 }
 
 .btn-size{
@@ -70,6 +74,7 @@
 
 .btn-size button{
     border-radius: 50px;
+    background: rgba(177, 132, 7, 1);
 }
 
 .box1{
@@ -130,7 +135,7 @@
 
         <center> 
             <div class="p-3 btn-size">
-                <button type="submit" class="btn text-white btn-warning">Proceed</button>
+                <button type="submit" class="btn text-white">Proceed</button>
             </div>  </center>
         </div>
     </form>
