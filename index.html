@@ -14,7 +14,7 @@
 
 <style>
     body{
-        background-color: rgb(22, 21, 21);
+        background-color: #191B1D;
         color: white;
     }
     .left-aero img{
@@ -43,7 +43,9 @@
         border-radius: 8px;
         height: 45px;
         color: white;
-        background-image: linear-gradient(to right, rgba(17, 14, 14, 0.89), rgba(14, 9, 9, 0.788));;
+        background-image: linear-gradient(to right, #181A1D, #3D4246FC);
+        box-shadow: inset 2px 50px #191b1d47;
+        
     }
 
     .form-control:focus {
@@ -69,11 +71,25 @@
 .btn-size button{
     border-radius: 50px;
 }
+
+.box1{
+    height: 90vh;
+    border:1px solid rgb(85, 71, 34) ;
+    /* box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877); */
+}
+
+@media (max-width:768px){
+    .box1{
+        height: 80vh;
+        border: none;
+    }
+
+}
     
 </style>
 <body>
   
-<div class="container col-md-4 offset-md-4 mt-md-5 pb-md-5 shadow-sm border position-relative">
+<div class="container box1 col-md-4 offset-md-4 mt-md-5 position-relative">
 
  <div class="left-aero mt-5 d-flex ps-3 pe-3">
      <a href="#"><img class="bg-dark" src="icons/left-arrow.png" alt=""></a>
