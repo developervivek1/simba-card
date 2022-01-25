@@ -13,13 +13,15 @@
     </filter>
   </defs>
   <g id="Group_41319" data-name="Group 41319" transform="translate(16 -8)">
-    <g transform="matrix(1, 0, 0, 1, -16, 8)" filter="url(#Rectangle_8882)">
-      <rect id="Rectangle_8882-2" data-name="Rectangle 8882" width="39" height="30" rx="15" transform="translate(24 14)" fill="url(#linear-gradient)"/>
-    </g>
-    <g id="Group_41315" data-name="Group 41315" transform="translate(-8 9)">
-      <g id="Group_39644" data-name="Group 39644" transform="translate(7)">
-        <rect id="Rectangle_1147" data-name="Rectangle 1147" width="24" height="24" transform="translate(16 16)" fill="none"/>
-        <path id="Path_41724" data-name="Path 41724" d="M41.091,19.126a1.021,1.021,0,0,0-1.445,0l-6.94,6.935a1.021,1.021,0,0,0,0,1.445l6.94,6.935A1.021,1.021,0,1,0,41.088,33l-6.218-6.213,6.218-6.213a1.021,1.021,0,0,0,0-1.445Z" transform="translate(-9.406 1.173)" fill="#fff"/>
+    <g id="Group_41369" data-name="Group 41369">
+      <g transform="matrix(1, 0, 0, 1, -16, 8)" filter="url(#Rectangle_8882)">
+        <rect id="Rectangle_8882-2" data-name="Rectangle 8882" width="39" height="30" rx="15" transform="translate(24 14)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_41315" data-name="Group 41315" transform="translate(-8 9)">
+        <g id="Group_39644" data-name="Group 39644" transform="translate(7)">
+          <rect id="Rectangle_1147" data-name="Rectangle 1147" width="24" height="24" transform="translate(16 16)" fill="none"/>
+          <path id="Path_41724" data-name="Path 41724" d="M41.091,19.126a1.021,1.021,0,0,0-1.445,0l-6.94,6.935a1.021,1.021,0,0,0,0,1.445l6.94,6.935A1.021,1.021,0,1,0,41.088,33l-6.218-6.213,6.218-6.213a1.021,1.021,0,0,0,0-1.445Z" transform="translate(-9.406 1.173)" fill="#fff"/>
+        </g>
       </g>
     </g>
   </g>
