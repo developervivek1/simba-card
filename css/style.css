@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
+    
     background-color: #191B1D;
     color: white;
-    font-family: poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 .left-aero img {
@@ -65,14 +68,14 @@ input[type="password"], input[type="text"] {
 }
 
 .box1 {
-    /* height: 100vh; */
+    border-radius: 5px;
     border: 1px solid rgb(85, 71, 34);
-    /* box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877); */
+    box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877);
 }
 
 @media (max-width:768px) {
     .box1 {
-        /* height: 80vh; */
+        
         border: none;
     }
 
