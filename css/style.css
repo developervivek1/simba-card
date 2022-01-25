@@ -1,35 +1,36 @@
-body{
+body {
     background-color: #191B1D;
     color: white;
     font-family: poppins;
 }
-.left-aero img{
+
+.left-aero img {
     border-radius: 11px;
     padding: 4px;
     width: 45px;
     height: 32px;
 }
 
-.progress1 .progress{
+.progress1 .progress {
     background: #594204 !important;
 }
 
-.progress1 .progress-bar{
+.progress1 .progress-bar {
     background: #B18407 !important;
 }
 
-.hide-img{
+.hide-img {
     top: 40px;
     right: 17px;
 }
 
-input[type="password"], input[type="text"]{
+input[type="password"], input[type="text"] {
     border: none;
     outline: none;
     border-radius: 12px;
     height: 46px;
     letter-spacing: 5px;
-    
+
     color: white;
     background-image: linear-gradient(to right, #151616, #3D4246FC);
     background-clip: unset;
@@ -38,41 +39,40 @@ input[type="password"], input[type="text"]{
 }
 
 .form-control:focus {
-color: white;
-letter-spacing: 5px;
-box-shadow: inset 2px 50px #191b1d47;
-border-color: none;
-outline: 0;
-/* box-shadow: none; */
+    color: white;
+    letter-spacing: 5px;
+    box-shadow: inset 2px 50px #191b1d47;
+    border-color: none;
+    outline: 0;
+    /* box-shadow: none; */
 }
 
-.btn-size{
-position: absolute;
-bottom: 5%;
-margin:auto;
-left: 50%;
-transform: translate(-50%,0);
-width: 132px;
-background-image: linear-gradient(
-180deg, rgb(19, 18, 18), rgba(48, 48, 47, 0.733));
-border-radius: 50px;
+.btn-size {
+    position: absolute;
+    bottom: 5%;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 132px;
+    background-image: linear-gradient(180deg, rgb(19, 18, 18), rgba(48, 48, 47, 0.733));
+    border-radius: 50px;
 }
 
-.btn-size button{
-border-radius: 50px;
-background: rgba(177, 132, 7, 1);
+.btn-size button {
+    border-radius: 50px;
+    background: rgba(177, 132, 7, 1);
 }
 
-.box1{
-height: 90vh;
-border:1px solid rgb(85, 71, 34) ;
-/* box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877); */
+.box1 {
+    height: 90vh;
+    border: 1px solid rgb(85, 71, 34);
+    /* box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877); */
 }
 
-@media (max-width:768px){
-.box1{
-    height: 80vh;
-    border: none;
-}
+@media (max-width:768px) {
+    .box1 {
+        height: 80vh;
+        border: none;
+    }
 
 }
