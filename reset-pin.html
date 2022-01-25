@@ -9,94 +9,17 @@
 
         <!-- bs-5 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+
+            <link rel="stylesheet" href="css/style.css">
+    </head>
 
 
-<style>
-    body{
-        background-color: #191B1D;
-        color: white;
-        font-family: poppins;
-    }
-    .left-aero img{
-        border-radius: 11px;
-    padding: 10px;
-    width: 50px;
-    height: 34px;
-    }
-
-    .progress1 .progress{
-        background: rgb(85, 71, 34) !important;
-    }
-
-    .progress1 .progress-bar{
-        background: rgb(187, 150, 48) !important;
-    }
-
-    .hide-img{
-        top: 40px;
-        right: 17px;
-    }
-
-    input[type="password"]{
-        border: none;
-        outline: none;
-        border-radius: 8px;
-        height: 45px;
-        color: white;
-        background-image: linear-gradient(to right, #151616, #3D4246FC);
-        background-clip: unset;
-        box-shadow: inset 2px 50px #191b1d47;
-
-    }
-
-    .form-control:focus {
-    color: white;
-    
-    box-shadow: inset 2px 50px #191b1d47;
-    border-color: none;
-    outline: 0;
-    /* box-shadow: none; */
-}
-
-.btn-size{
-    position: absolute;
-    bottom: 5%;
-    margin:auto;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 132px;
-    background-image: linear-gradient(
-180deg, rgb(19, 18, 18), rgba(48, 48, 47, 0.733));
-    border-radius: 50px;
-}
-
-.btn-size button{
-    border-radius: 50px;
-    background: rgba(177, 132, 7, 1);
-}
-
-.box1{
-    height: 90vh;
-    border:1px solid rgb(85, 71, 34) ;
-    /* box-shadow: 0 .125rem .25rem rgba(143, 121, 22, 0.877); */
-}
-
-@media (max-width:768px){
-    .box1{
-        height: 80vh;
-        border: none;
-    }
-
-}
-    
-</style>
 <body>
   
 <div class="container box1 col-md-4 offset-md-4 mt-md-5 position-relative">
 
  <div class="left-aero mt-5 d-flex ps-3 pe-3">
-     <a href="#"><img class="bg-dark" src="icons/left-arrow.png" alt=""></a>
+     <a href="#"><img class="bg-dark" src="icons/aero.svg" alt=""></a>
 
 
      <div class="progress1 text-center w-100">
@@ -114,18 +37,18 @@
     <form>
         <div class="mb-4 position-relative">
             <label for="exampleInputPassword1" class="form-label">Current Pin</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-            <a class="hide-img position-absolute" href=""><img src="icons/hidden.png" width="22" alt=""></a>
+            <input type="password" class="form-control" id="exampleInputPassword1" autofocus>
+            <a class="hide-img position-absolute" href=""><img src="icons/hidden.svg" width="22" alt=""></a>
         </div>
         <div class="mb-4 position-relative">
             <label for="exampleInputPassword1" class="form-label">New Pin</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
-            <a class="hide-img position-absolute" href=""><img src="icons/hidden.png" width="22" alt=""></a>
+            <a class="hide-img position-absolute" href=""><img src="icons/hidden.svg" width="22" alt=""></a>
         </div>
         <div class="mb-4 position-relative">
             <label for="exampleInputPassword1" class="form-label">Confirm New Pin</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
-            <a class="hide-img position-absolute" href=""><img src="icons/hidden.png" width="22" alt=""></a>
+            <a class="hide-img position-absolute" href=""><img src="icons/hidden.svg" width="22" alt=""></a>
         </div>
 
         
