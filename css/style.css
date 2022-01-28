@@ -25,6 +25,9 @@ body {
 .hide-img {
     top: 42px;
     right: 17px;
+    cursor: pointer;
+    width: 22px;
+    height: 24px;
 }
 
 input[type="password"], input[type="text"] {
